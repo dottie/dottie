@@ -37,7 +37,7 @@
 		btnsScrollTimerX: null,
 		_create: function() {
 			var self = this;
-			self.ie = $.detectIE();
+			//self.ie = $.detectIE();
 			this._detectOrientation();
 			//$(self.element).css({'overflow-x':'hidden','overflow-y':'hidden'}).addClass('mScrollBox')
 			//		.wrapInner('<div class="container"><div class="content"></div></div>');
